@@ -37,3 +37,4 @@ def with_extra_params(request, extra_param):
     :return:
     """
     return HttpResponse('Welcome to attention ' + extra_param)
+
